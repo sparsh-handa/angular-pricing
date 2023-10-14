@@ -1,0 +1,14 @@
+
+<section class="pricing py-2">
+  <div class="container">
+
+    <div class="d-flex flex-wrap justify-content-evenly align-items-center">
+      <app-card *ngFor="let item of obj"
+          [planObj]="item">
+      </app-card>
+    </div>
+
+  </div>
+</section> 
+
+<!-- [plan]="product.plan" [price]="product.price" [type]="product.type" [storage]="product.storage" [domaintype]="product.domaintype -->
